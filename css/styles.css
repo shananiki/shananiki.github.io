@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'PixelNES';
+    src: url('Pixel NES.otf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'TFTWindows';
+    src: url('TFTWindows.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'basiic';
+    src: url('basiic.ttf') format('truetype');
+  }
+  
+  .my-class {
+    font-family: 'PixelNES', sans-serif;
+  }
+  
+  body {
+      background-color: #975d5d;
+  }
+  
+  /* Style for headings */
+  h1 {
+      font-family: "PixelNES";
+      color: #ffffff;
+      font-size: 24px;
+  }
+  
+  /* Style for tables
+  table {
+      font-family: "TFTWindows";
+      width: 100%;
+      border-collapse: collapse;
+      border: 1px solid #ddd;
+  } */
+  
+  table {
+      font-family: "TFTWindows";
+      border-collapse: collapse;
+      width: 100%;
+      background-color: #000000a8;
+      border: 2px solid #383838;
+      border-radius: 4px;
+      color: #fff;
+      padding: 10px 15px;
+      margin: 5px;
+      margin-top: 5px;
+      position: relative;
+  }
+  
+  
+  
+  table th, table td {
+      font-family: "basiic";
+      border-collapse: collapse;
+      background-color: #000000a8;
+      border: 2px solid #383838;
+      border-radius: 4px;
+      color: #fff;
+      padding: 10px 15px;
+      margin: 5px;
+      margin-top: 5px;
+      position: relative;
+  }
+  
+  /* Style for forms */
+  form {
+      margin-top: 20px;
+  }
+  
+  label {
+      font-family: "basiic";
+      display: block;
+      margin-bottom: 5px;
+      color: #ffffff;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+      padding: 8px;
+      margin-bottom: 10px;
+  }
+  
+  form input[type="submit"] {
+      background-color: #007BFF;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+  }
+  
+  .input {
+      bottom: 5px;
+      background-color: #000;
+      color: #fff;
+      border: 1px solid #383838;
+      font-family: MS Gothic,monospace;
+      padding: 3px;
+      width: 508px;
+  }
+  
+  a {
+      font-family: "PixelNES";
+  }
+  
+  .button {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #383838;
+    font-family: MS Gothic,monospace;
+    padding: 3px 27px;
+    cursor: pointer;
+  }
+  
