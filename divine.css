@@ -1,0 +1,84 @@
+/* CSS Document */
+
+
+@font-face {
+  font-family: 'basiic';
+  src: url('fonts/basiic.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'TFTWindows';
+  src: url('fonts/TFTWindows.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'monogram';
+  src: url('fonts/monogram.ttf') format('truetype');
+}
+
+#wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1200px;
+	display: flex;
+	flex-direction: row;
+}
+
+#wrapper hr{
+	box-shadow: 5px 5px 5px 5px #ffffff00;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #000000d3;
+}
+
+
+.leftBox {
+	font-family: "basiic";
+	width: 400px;
+	height: 800px;
+	background-color: #161618;
+	border: 2px solid white;
+	color: white;
+	padding: 10px 10px;
+	margin: 2px;
+}
+
+.leftBox h2{
+   	text-shadow: 0 0 10px #ffffff00,0 0 20px #ffffff80,0 0 30px #e000e659,0 0 40px #00e6b200,0 0 50px #00e6bd3d,0 0 60px #b200e629,0 0 70px #a700e657;
+}
+
+.middleBox {
+	font-family: "TFTWindows";
+	width: 800px;
+	height: 800px;
+	background-color: #161618;
+	border: 2px solid white;
+	color: white;
+	padding: 10px 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.middleBox h2{
+    text-shadow: 0 0 10px #ffffff00,0 0 20px #ffffff80,0 0 30px #e000e659,0 0 40px #00e6b200,0 0 50px #00e6bd3d,0 0 60px #b200e629,0 0 70px #a700e657;
+}
+
+.rightBox {
+	font-family: "TFTWindows";
+	width: 400px;
+	height: 800px;
+	background-color: #161618;
+	border: 2px solid white;
+	color: white;
+	padding: 10px 10px;
+	margin: 2px;
+}
+
+.rightBox h2{
+    text-shadow: 0 0 10px #ffffff00,0 0 20px #ffffff80,0 0 30px #e000e659,0 0 40px #00e6b200,0 0 50px #00e6bd3d,0 0 60px #b200e629,0 0 70px #a700e657;
+}
